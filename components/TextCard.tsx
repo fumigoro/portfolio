@@ -2,17 +2,20 @@ import { Box, Chip, Link, Paper, styled, Typography } from "@mui/material"
 import { Color } from "../themes/Color";
 import { TechStackChip } from "./TechStackChip";
 
-type TextCardProps = {
+type WorksContent = {
     title: string,
     description: string,
     link: string,
+    image: string,
     technology: string[]
+}
+type TextCardProps = {
+    src: WorksContent
 }
 export const TextCard = (props: TextCardProps) => {
     const CustomCard = styled(Box)(() => ({
         display: "inline-block",
         width: 360,
-        height: 300,
         maxWidth: "95%",
         verticalAlign: "top",
     }));
@@ -24,27 +27,27 @@ export const TextCard = (props: TextCardProps) => {
         },
         background: Color.background,
         transition: "all 0.2s",
-        height: "100%",
-        padding: 15,
-        textAlign: "left",
+        height: 200,
     }))
     return (
-        <Link href={props.link}>
+        <Link href={props.src.link}>
             <CustomCard m={1} >
                 <CustomPaper variant="outlined">
-                    <Box sx={{height: "80%"}}>
-                        <Typography sx={{ fontWeight: "bold", fontSize: 25 }} gutterBottom>{props.title}</Typography>
-                        <p>{props.description}</p>
+                    <img src={`images/${props.src.image}`} height="100%"/>
+                </CustomPaper>
+                <Box textAlign={"left"}>
+                    <Box sx={{ height: "80%", color: "black" }}>
+                        <Typography sx={{ fontWeight: 600, fontSize: 20 }} gutterBottom>{props.src.title}</Typography>
+                        <p>{props.src.description}</p>
                     </Box>
 
-                    <Box sx={{height: "20%"}}>
-                        {props.technology.map(item => (
-                            <TechStackChip text={item} />
+                    <Box sx={{ height: "20%", color: "black" }}>
+                        {props.src.technology.map(item => (
+                            <TechStackChip text={item} key={item} />
                         ))}
                     </Box>
+                </Box>
 
-
-                </CustomPaper>
             </CustomCard>
         </Link>
     )

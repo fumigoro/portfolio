@@ -17,7 +17,7 @@ export const Header = () => {
                         <Button
                             sx={{ my: 2, color: 'white', display: 'block' }}
                         >
-                            あああ
+                            
                         </Button>
 
                     </Box>

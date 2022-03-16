@@ -3,7 +3,8 @@
         {
             "title": "AIMS Gifu Extention",
             "description": "AIMS Gifuを便利にするブラウザ拡張機能。",
-            "url": "/",
+            "link": "/",
+            "image": "AIMS_Gifu_Extention.png",
             "technology": [
                 "JavaScript"
             ]
@@ -11,15 +12,17 @@
         {
             "title": "IC Card Wallet",
             "description": "電子マネーICカードの履歴蓄積Androidアプリ。",
-            "url": "/",
+            "link": "",
+            "image": "IC_Card_Wallwet.png",
             "technology": [
                 "Java"
             ]
         },
         {
             "title": "フル単ナビ",
-            "description": "講義を評価し共有するサービス。履修した講義の情報を気軽に共有し履修登録をお助けします。",
-            "url": "/",
+            "description": "講義を評価し共有するサービス。履修した講義の情報を気軽に共有し履修登録をお助けします。サークル仲間に誘われて出場したハッカソンにて4名で開発。主にFirebase周辺を担当しました。",
+            "link": "/",
+            "image": "fulltan_navi.png",
             "technology": [
                 "Vue.js",
                 "Firebase"
@@ -28,7 +31,8 @@
         {
             "title": "第73回岐阜大学祭 会場Webサイト",
             "description": "オンライン開催となった第73回岐阜大学祭の会場用Webサイト。出典企画の情報や各企画へのリンクを掲載しバーチャルな会場としての役割を担います。",
-            "url": "/",
+            "link": "/",
+            "image": "gidaisai73_event_web.png",
             "technology": [
                 "Nuxt.js"
             ]
@@ -36,7 +40,8 @@
         {
             "title": "岐阜大学祭全学執行委員会 新歓Webサイト",
             "description": "岐阜大学祭全学執行委員会について、新入生向けに紹介するWebサイト。",
-            "url": "/",
+            "link": "/",
+            "image": "gidaisai73_shinkan_web.png",
             "technology": [
                 "Nuxt.js"
             ]
@@ -44,19 +49,21 @@
         {
             "title": "履修チェッカー",
             "description": "自分が取得予定の講義を選択すると卒業要件を満たすかどうか自動判定するWebアプリ。完全に自分が欲しくて作ったため、自分の所属コースのみの対応です...",
-            "url": "/",
+            "link": "/",
+            "image": "credits_counter.png",
             "technology": [
-                "Vue.js",
-                "Azure Static Web Apps"
+                "Vue.js"
             ]
         },
         {
             "title": "オンラインビンゴ大会参加者管理システム",
             "description": "第73回岐阜大学祭にて行ったオンラインビンゴ大会の参加者管理を円滑に行うためのWebシステム。",
-            "url": "/",
+            "link": "/",
+            "image": "bingo_manager.png",
             "technology": [
                 "Nuxt.js",
                 "Azure Static Web Apps",
+                "LINE Front-end Framework",
                 "Go",
                 "Azure App Service",
                 "Azure Cosmos DB"
@@ -67,7 +74,8 @@
         {
             "title": "サークル新歓「LINE Bot をつくってみよう！」開催",
             "description": "岐阜大学プログラミングサークル Prog-G にて、1年生向けの新歓イベントとしてLINE Botのハンズオン講座を開催。Google Apps Scriptを使うことでブラウザ上で完結する講座としました。",
-            "url": "/",
+            "link": "/",
+            "image": "prog-g_line_bot.png",
             "technology": [
                 "LINE Messaiging API",
                 "Google Apps Sctipt"
@@ -76,20 +84,27 @@
         {
             "title": "記事投稿 そうだChrome拡張つくってみよう",
             "description": "岐阜大学プログラミングサークル Prog-G のWebサイトにて、AIMS Gifu Extentionを作った際に得た知見を記事にまとめました。",
-            "url": "https://prog-g.github.io/2020/11/27/%E3%81%9D%E3%81%86%E3%81%A0Chrome%E6%8B%A1%E5%BC%B5%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86.html",
+            "link": "https://prog-g.github.io/2020/11/27/%E3%81%9D%E3%81%86%E3%81%A0Chrome%E6%8B%A1%E5%BC%B5%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86.html",
+            "image": "prog_g_chrome_ext.png",
             "technology": []
         },
         {
             "title": "サークルでのLT「Google Apps ScriptでWebアプリ作った」",
             "description": "所属サークルProg-G にてGoogleAppsScript で Web アプリらしきものを作ったというタイトルでGoogle Apps Scriptを布教するLTをしました。",
-            "url": "https://prog-g.github.io/2020/11/27/%E3%81%9D%E3%81%86%E3%81%A0Chrome%E6%8B%A1%E5%BC%B5%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86.html",
-            "technology": ["Goolgle Apps Script"]
+            "link": "https://prog-g.github.io/2020/08/12/GoogleAppsScript%E3%81%A7Web%E3%82%A2%E3%83%97%E3%83%AA%E4%BD%9C%E3%81%A3%E3%81%9F.html",
+            "image": "GAS_LT.png",
+            "technology": [
+                "Goolgle Apps Script"
+            ]
         },
         {
             "title": "サークルでのLT「初めてUnity使ってみた」",
             "description": "プログラミングを初めてまだ2ヶ月強の頃、初めてUnityを触ってみたことをネタにLTをしました。",
-            "url": "https://prog-g.github.io/2019/06/26/%E5%88%9D%E3%82%81%E3%81%A6Unity%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F.html",
-            "technology": ["Unity"]
+            "link": "https://prog-g.github.io/2019/06/26/%E5%88%9D%E3%82%81%E3%81%A6Unity%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F.html",
+            "image": "prog_g_unity.png",
+            "technology": [
+                "Unity"
+            ]
         }
     ]
 }

@@ -10,6 +10,14 @@ import { theme } from '../themes/Theme'
 import { textAlign } from '@mui/system'
 import { SectionTitle } from '../components/SectionTitle'
 
+type WorksContent = {
+  title: string,
+  description: string,
+  link: string,
+  image: string,
+  technology: string[]
+}
+
 const Home: NextPage = () => {
   return (
     <>
@@ -53,14 +61,14 @@ const Home: NextPage = () => {
             <SectionTitle text="Works" />
             <Box sx={{ textAlign: "center", }}>
               {contents.works.map(works => (
-                <TextCard title={works.title} link={works.url} description={works.description} key={works.title} technology={works.technology}/>
+                <TextCard src={works} />
               ))}
             </Box>
 
             <SectionTitle text="Activity" />
             <Box sx={{ textAlign: "center", }}>
               {contents.activity.map(activity => (
-                <TextCard title={activity.title} link={activity.url} description={activity.description} key={activity.title} technology={activity.technology}/>
+                <TextCard src={activity} />
               ))}
             </Box>
           </Container>
