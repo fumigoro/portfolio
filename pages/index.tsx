@@ -58,15 +58,15 @@ const Home: NextPage = () => {
 
             <SectionTitle text="Works" />
             <Box sx={{ textAlign: "center", }}>
-              {contents.works.map(works => (
-                <TextCard src={works} />
+              {contents.works.map((works, idx) => (
+                <TextCard src={works} key={idx} />
               ))}
             </Box>
 
             <SectionTitle text="Activity" />
             <Box sx={{ textAlign: "center", }}>
-              {contents.activity.map(activity => (
-                <TextCard src={activity} />
+              {contents.activity.map((activity, idx) => (
+                <TextCard src={activity} key={idx} />
               ))}
             </Box>
           </Container>
