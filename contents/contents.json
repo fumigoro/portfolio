@@ -74,7 +74,7 @@
         {
             "title": "サークル新歓「LINE Bot をつくってみよう！」開催",
             "description": "岐阜大学プログラミングサークル Prog-G にて、1年生向けの新歓イベントとしてLINE Botのハンズオン講座を開催。Google Apps Scriptを使うことでブラウザ上で完結する講座としました。",
-            "link": "/",
+            "link": "https://prog-g.github.io/2021/04/12/LINE-Bot%E3%83%8F%E3%83%B3%E3%82%BA%E3%82%AA%E3%83%B3.html",
             "image": "prog-g_line_bot.png",
             "technology": [
                 "LINE Messaiging API",
