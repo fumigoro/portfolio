@@ -1,4 +1,4 @@
-import { Avatar, Box, Container, Grid, Paper, Stack, ThemeProvider, Typography } from '@mui/material'
+import { Avatar, Box, Button, Container, Grid, Paper, Stack, ThemeProvider, Typography } from '@mui/material'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { Header } from '../components/header'
@@ -44,6 +44,11 @@ const Home: NextPage = () => {
               Koki Sakai
             </Typography>
             <Typography variant='h5' sx={{ textAlign: "center", m: 2 }}>fumigoro / 文ゴロイド</Typography>
+            <Typography component="div" align='center' >
+              <Button variant='outlined' href='https://twitter.com/fumi_chandayo' sx={{ m: 1 }}>Twitter</Button>
+              <Button variant='outlined' href='https://github.com/fumigoro' sx={{ m: 1 }}>GitHub</Button>
+              <Button variant='outlined' href='https://qiita.com/fumigoro' sx={{ m: 1 }}>Qiita</Button>
+            </Typography>
             <SectionTitle text="About" />
             <Typography gutterBottom>
               2000年愛知県生まれ、県内の普通科高校を卒業し、現在は岐阜大学工学部に在籍しています。
