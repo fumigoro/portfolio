@@ -21,7 +21,7 @@
         {
             "title": "フル単ナビ",
             "description": "講義を評価し共有するサービス。履修した講義の情報を気軽に共有し履修登録をお助けします。サークル仲間に誘われて出場したハッカソンにて4名で開発。主にFirebase周辺を担当しました。（サーバー維持費・管理コスト等の関係で現在はサービス停止中です。）",
-            "link": "https://youtu.be/z8uqZBVOpVo?t=2687",
+            "link": "https://youtu.be/z8uqZBVOpVo?t=7444",
             "image": "fulltan_navi.png",
             "technology": [
                 "Vue.js",
