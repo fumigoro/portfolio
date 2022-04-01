@@ -1,13 +1,11 @@
 import { Avatar, Box, Container, Grid, Paper, Stack, ThemeProvider, Typography } from '@mui/material'
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import { Header } from '../components/header'
 import { TextCard } from '../components/TextCard'
 import styles from '../styles/Home.module.css'
 import contents from '../contents/contents.json'
 import { theme } from '../themes/Theme'
-import { textAlign } from '@mui/system'
 import { SectionTitle } from '../components/SectionTitle'
 
 type WorksContent = {
