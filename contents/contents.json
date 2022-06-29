@@ -1,6 +1,15 @@
 {
     "works": [
         {
+            "title": "レクマネ",
+            "description": "岐大生のための履修管理サービス。講義を検索＆お気に入り登録すると、時間割や必要な教科書リストを自動作成！シラバスの閲覧機能や今日の予定表示、シラバスデータを生かした空き教室検索など、多彩な機能を搭載しています。",
+            "link": "https://lin.ee/8hIle16",
+            "image": "lecmane.svg",
+            "technology": [
+                "React"
+            ]
+        },
+        {
             "title": "AIMS Gifu Extention",
             "description": "AIMS Gifuを便利にするブラウザ拡張機能。",
             "link": "https://chrome.google.com/webstore/detail/aims-gifu-extension/klbkinefgmmgbfgdblaflhcfobacebpn",

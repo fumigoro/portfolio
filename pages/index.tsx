@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           <Container maxWidth="lg">
             <Box m={3}>
               <Avatar
-                alt="Remy Sharp"
+                alt="Avatar"
                 src="/images/icon.png"
                 sx={{ width: 200, height: 200, m: "auto" }}
               />
@@ -55,10 +55,6 @@ const Home: NextPage = () => {
               高校時代に入部していた演劇部で「文ゴロイド」という奇抜なニックネームを先輩につけられ、今もこの名前を使っています。
               大学入学時に入った技術系サークルProg-Gにて刺激を受けプログラミングを始めました。
               「面倒な動作を解消する！」このへのモチベーションが高く、自分自身が日々感じてきた面倒な作業から開放してくれるコンテンツを中心に制作しています。
-            </Typography>
-            <Typography gutterBottom>
-              また、高校演劇部時代にイベントや興行を裏で支える人の存在を目にし、そういった仕事への憧れから大学入学時から学祭実行委員会（岐阜大学祭全学執行委員会）へ所属していました。
-              3回生の時には執行委員長を努め、2021年10月に「第73回岐阜大学祭～最初で最後！NEOnline祭～」と題し初のオンライン開催に取り組みました。
             </Typography>
 
             <SectionTitle text="Works" />
