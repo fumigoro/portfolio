@@ -1,9 +1,16 @@
 import type { NextPage } from 'next'
 import { Box } from '@mui/system';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
-import { Typography } from '@mui/material';
+import { Button, Typography } from '@mui/material';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 const Ifmia: NextPage = () => {
+  const router = useRouter();
+  useEffect(() => {
+    router.push('https://youtu.be/ZldhSCVB2tI');
+  }, [router]);
+
   return (
     <Box
       sx={{
@@ -24,9 +31,11 @@ const Ifmia: NextPage = () => {
         }}
       >
         <InfoOutlinedIcon sx={{ height: 50, width: 50 }} />
-        <Typography mt={1} variant="h6">
-          The explanation video is getting ready.
-        </Typography>
+        <Box m={2}>
+          <Button variant="contained">
+            The explanation video is here.
+          </Button>
+        </Box>
       </Box>
     </Box>
   );
