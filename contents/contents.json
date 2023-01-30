@@ -2,7 +2,7 @@
     "works": [
         {
             "title": "株式会社artkake コーポレートサイト",
-            "description": "2022年7月より参画している岐阜大学起業部発ベンチャーのコーポレートサイトです。APIベースのヘッドレスCMSを使用し、静的にビルドしたファイルをAzure Static Web AppsでホスティングしているJamstackな構成です。",
+            "description": "2022年7月より参画している岐阜大学起業部発ベンチャーのコーポレートサイトです。APIベースのヘッドレスCMSを使用し、静的にビルドしたファイルをNetlifyでホスティングしているJamstackな構成です。",
             "link": "https://www.artkake.co.jp/",
             "image": "artkake_inc_web.png",
             "technology": [
@@ -13,10 +13,11 @@
         {
             "title": "レクマネ",
             "description": "岐大生のための履修管理サービス。講義を検索＆お気に入り登録すると、時間割や必要な教科書リストを自動作成！シラバスの閲覧機能や今日の予定表示、シラバスデータを生かした空き教室検索など、多彩な機能を搭載しています。",
-            "link": "https://lin.ee/8hIle16",
+            "link": "https://twitter.com/lecmane",
             "image": "lecmane.svg",
             "technology": [
-                "React"
+                "React",
+                "Azure Static Web Apps"
             ]
         },
         {
@@ -81,15 +82,13 @@
             "image": "bingo_manager.png",
             "technology": [
                 "Nuxt.js",
-                "Azure Static Web Apps",
-                "LINE Front-end Framework",
                 "Go",
-                "Azure App Service",
-                "Azure Cosmos DB"
+                "LINE Front-end Framework",
+                "Azure"
             ]
         }
     ],
-    "activity": [
+    "writing": [
         {
             "title": "サークル新歓「LINE Bot をつくってみよう！」開催",
             "description": "岐阜大学プログラミングサークル Prog-G にて、1年生向けの新歓イベントとしてLINE Botのハンズオン講座を開催。Google Apps Scriptを使うことでブラウザ上で完結する講座としました。",
