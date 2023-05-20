@@ -58,9 +58,9 @@ const Home: NextPage = () => {
                   />
                 </div>
                 <div className="text-xl font-bold mb-1">{works.title}</div>
-                <div className="flex gap-2 font-medium text-sky-500">
+                <div className="font-medium text-sky-500">
                   {works.technology.map((item) => (
-                    <div key={item}>{item}</div>
+                    <div key={item} className='inline mr-2'>{item}</div>
                   ))}
                 </div>
                 <div className="flex gap-2 text-gray-500">
@@ -119,9 +119,9 @@ const Home: NextPage = () => {
                   />
                 </div>
                 <div className="text-xl font-bold mb-1">{works.title}</div>
-                <div className="flex gap-2 font-medium text-sky-500">
+                <div className="font-medium text-sky-500 ">
                   {works.technology.map((item) => (
-                    <div key={item}>{item}</div>
+                    <div key={item} className='inline'>{item}</div>
                   ))}
                 </div>
                 <div className="flex gap-2 text-gray-500">
