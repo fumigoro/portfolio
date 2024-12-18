@@ -23,15 +23,6 @@
             ]
         },
         {
-            "title": "IC Card Wallet",
-            "description": "電子マネーICカードの履歴蓄積Androidアプリ。ICカード(Ayuca, 生協電子マネー)をスマホにかざして利用履歴と残高を確認できます。読み取った履歴が過去のものと合わせて端末内に蓄積され、月ごとの利用金額がグラフ表示できたりと家計簿的な使い方をプラスしているのが特徴です。（今のところストア公開の予定はありません...）",
-            "link": "https://github.com/fumigoro/felica-wallet",
-            "image": "IC_Card_Wallwet.png",
-            "technology": [
-                "Java"
-            ]
-        },
-        {
             "title": "フル単ナビ",
             "description": "講義を評価し共有するサービス。履修した講義の情報を気軽に共有し履修登録をお助けします。サークル仲間に誘われて出場したハッカソンにて4名で開発。主にFirebase周辺を担当しました。（サーバー維持費・管理コスト等の関係で現在はサービス停止中です。）",
             "link": "https://youtu.be/z8uqZBVOpVo?t=7444",
@@ -42,42 +33,12 @@
             ]
         },
         {
-            "title": "第73回岐阜大学祭 会場Webサイト",
-            "description": "オンライン開催となった第73回岐阜大学祭の会場用Webサイトで、出典企画の情報や各企画へのリンクを掲載しバーチャルな会場としての役割を担いました。委員会内のチーム3名で開発しました。",
-            "link": "https://event.gidaisai.jp/",
-            "image": "gidaisai73_event_web.png",
-            "technology": [
-                "Nuxt.js"
-            ]
-        },
-        {
-            "title": "岐阜大学祭全学執行委員会 新歓Webサイト",
-            "description": "岐阜大学祭全学執行委員会について、新入生向けに紹介するWebサイト。",
-            "link": "https://gidaisai.jp/shinkan/",
-            "image": "gidaisai73_shinkan_web.png",
-            "technology": [
-                "Nuxt.js"
-            ]
-        },
-        {
             "title": "履修チェッカー",
             "description": "自分が取得予定の講義を選択すると卒業要件を満たすかどうか自動判定するWebアプリ。完全に自分が欲しくて作ったため、自分の所属コースのみの対応です...",
             "link": "https://fumigoro.github.io/academic-credits-counter/",
             "image": "credits_counter.png",
             "technology": [
                 "Vue.js"
-            ]
-        },
-        {
-            "title": "オンラインビンゴ大会参加者管理システム",
-            "description": "第73回岐阜大学祭にて行ったオンラインビンゴ大会の参加者管理を円滑に行うためのWebシステム。",
-            "link": "https://twitter.com/fumi_chandayo/status/1504437503461572614",
-            "image": "bingo_manager.png",
-            "technology": [
-                "Nuxt.js",
-                "Go",
-                "LINE Front-end Framework",
-                "Azure"
             ]
         }
     ],
